@@ -11,5 +11,7 @@ public class P2338 {
         System.out.println(a.subtract(b));
         System.out.print(a.multiply(b));
 
+        sc.close();
     }
+
 }

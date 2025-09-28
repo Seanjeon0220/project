@@ -10,6 +10,7 @@ public class P1001 {
 	
 		System.out.print(c);
 		
+		sc.close();
 	}
 	
 }

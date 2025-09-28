@@ -9,6 +9,8 @@ public class P1000 {
 		int c = a+b;
 	
 		System.out.print(c);
+
+		sc.close();
 		
 	}
 	

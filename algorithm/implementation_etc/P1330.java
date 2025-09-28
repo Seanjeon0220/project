@@ -16,6 +16,8 @@ public class P1330 {
 		}else {
 			System.out.print("==");
 		}
+
+		sc.close();
 	}
 
 }

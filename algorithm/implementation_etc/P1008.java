@@ -9,6 +9,8 @@ public class P1008 {
 		double c = (double)a/b;
 	
 		System.out.print(c);
+
+		sc.close();
 		
 	}
 	
