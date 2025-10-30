@@ -1,0 +1,75 @@
+str = input()
+
+for i in range(len(str)):
+    if str[i] == "0":
+        print("0000")
+        print("0  0")
+        print("0  0")
+        print("0  0")
+        print("0000")
+
+    elif str[i] == "1":
+        print("   1")
+        print("   1")
+        print("   1")
+        print("   1")
+        print("   1")
+
+    elif str[i] == "2":
+        print("2222")
+        print("   2")
+        print("2222")
+        print("2")
+        print("2222")
+
+    elif str[i] == "3":
+        print("3333")
+        print("   3")
+        print("3333")
+        print("   3")
+        print("3333")
+
+    elif str[i] == "4":
+        print("4  4")
+        print("4  4")
+        print("4444")
+        print("   4")
+        print("   4")
+
+    elif str[i]== "5":
+        print("5555")
+        print("5")
+        print("5555")
+        print("   5")
+        print("5555")
+
+    elif str[i] == "6":
+        print("6666")
+        print("6")
+        print("6666")
+        print("6  6")
+        print("6666")
+
+    elif str[i] == "7":
+        print("7777")
+        print("   7")
+        print("   7")
+        print("   7")
+        print("   7")
+
+    elif str[i] == "8":
+        print("8888")
+        print("8  8")
+        print("8888")
+        print("8  8")
+        print("8888")
+
+    else:
+        print("9999")
+        print("9  9")
+        print("9999")
+        print("   9")
+        print("   9")
+
+    if i != len(str)-1:
+        print("")
