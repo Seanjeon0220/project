@@ -1,6 +1,6 @@
 N, M, S = map(int, input().split(" "))
 
 pm = S*M
-pn = (S*(100-N)/100)*(M+1)
+pn = S*(M+1)*(100-N)//100
 
-print(int(min(pn,pm)))
+print((min(pn,pm)))
