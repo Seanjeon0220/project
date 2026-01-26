@@ -18,7 +18,6 @@ public class P1167 {
 	static int answer;
 	static int max;
 
-	@SuppressWarnings("unchecked")
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

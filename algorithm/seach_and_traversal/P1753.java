@@ -23,8 +23,6 @@ public class P1753 {
     static List<Node>[] list;
     static int[] dist;
 
-
-    @SuppressWarnings("unchecked")
 	public static void main(String[] args) throws IOException {
         StringTokenizer st = new StringTokenizer(br.readLine());
         v = Integer.parseInt(st.nextToken());
