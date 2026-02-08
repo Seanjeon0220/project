@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
+@SuppressWarnings("unchecked")
 public class P21316 {
 	
 	public static void main(String[] args) throws IOException{

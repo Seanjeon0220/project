@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
+@SuppressWarnings("unchecked")
 public class P1167 {
 	static class Node{
 		int to;

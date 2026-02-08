@@ -6,6 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.StringTokenizer;
 
+@SuppressWarnings("unchecked")
 public class P15681 {
 
 	static int[] numOfChild;

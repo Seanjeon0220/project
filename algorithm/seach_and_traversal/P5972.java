@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
+@SuppressWarnings("unchecked")
 public class P5972 {
     
     static int n, m;

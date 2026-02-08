@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
+@SuppressWarnings("unchecked")
 public class P1162 {
     static int N, M, K;
     static long[][] dp;
@@ -14,6 +15,7 @@ public class P1162 {
             this.count = count;
         }
     }
+    
     static ArrayList<Edge>[] edges;
     static final long MAX = Long.MAX_VALUE;
     public static void main(String[] args) throws IOException {
@@ -25,6 +27,8 @@ public class P1162 {
         N = Integer.parseInt(st.nextToken());
         M = Integer.parseInt(st.nextToken());
         K = Integer.parseInt(st.nextToken());
+
+        
         edges = new ArrayList[N + 1];
         dp = new long[N + 1][K + 1];
         

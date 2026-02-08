@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
+@SuppressWarnings("unchecked")
 public class P9328 {
     static char[][] map;
     static boolean[] key;

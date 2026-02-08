@@ -15,6 +15,7 @@ class Node implements Comparable<Node>{
     }
 }
 
+@SuppressWarnings("unchecked")
 public class P1753 {
     private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     private static final BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

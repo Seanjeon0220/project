@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
+@SuppressWarnings("unchecked")
 public class P6248 {
     static ArrayList<pii>[] adj;
     static int INF = 1000000007;

@@ -1,5 +1,6 @@
 import java.util.*;
 
+
 public class P2638 {
 	static int N, M;
 	static int[] dx = {-1, 0, 1, 0};

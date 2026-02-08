@@ -1,6 +1,7 @@
 import java.util.*;
 import java.io.*;
 
+@SuppressWarnings("unchecked")
 public class P1967 {
 
 	static ArrayList<Integer[]> graph[];
