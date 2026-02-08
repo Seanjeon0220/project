@@ -1,22 +1,22 @@
 import java.io.*;
 import java.util.*;
 
-class Node implements Comparable<Node>{
-    int end, weight;
-
-    public Node(int end, int weight){
-        this.end = end;
-        this.weight = weight;
-    }
-
-    @Override
-    public int compareTo(Node o) {
-        return weight - o.weight;
-    }
-}
-
 @SuppressWarnings("unchecked")
 public class P1753 {
+    static class Node implements Comparable<Node> {
+        int end, weight;
+
+        public Node(int end, int weight) {
+            this.end = end;
+            this.weight = weight;
+        }
+
+        @Override
+        public int compareTo(Node o) {
+            return weight - o.weight;
+        }
+    }
+
     private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     private static final BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     private static final int INF = 100_000_000;

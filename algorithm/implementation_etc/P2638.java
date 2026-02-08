@@ -1,7 +1,16 @@
 import java.util.*;
 
-
 public class P2638 {
+	static class Point {
+		int x;
+		int y;
+
+		Point(int x, int y) {
+			this.x = x;
+			this.y = y;
+		}
+	}
+
 	static int N, M;
 	static int[] dx = {-1, 0, 1, 0};
 	static int[] dy = {0, 1, 0, -1};
@@ -101,16 +110,5 @@ public class P2638 {
 				visited[nx][ny] = true;
 			}
 		}
-	}
-
-}
-
-class Point {
-	int x;
-	int y;
-
-	Point(int x, int y) {
-		this.x = x;
-		this.y = y;
 	}
 }

@@ -1,23 +1,22 @@
 import java.io.*;
 import java.util.*;
  
-class Node implements Comparable<Node> {
-    int end;
-    int weight;
- 
-    Node(int end, int weight) {
-        this.end = end;
-        this.weight = weight;
-    }
- 
-    @Override
-    public int compareTo(Node o) {
-        return weight - o.weight;
-    }
- 
-}
- 
 public class P1916 {
+    static class Node implements Comparable<Node> {
+        int end;
+        int weight;
+     
+        Node(int end, int weight) {
+            this.end = end;
+            this.weight = weight;
+        }
+     
+        @Override
+        public int compareTo(Node o) {
+            return weight - o.weight;
+        }
+    }
+
     static int N, M;
     static ArrayList<ArrayList<Node>> a;
     static int[] dist;
