@@ -1,0 +1,8 @@
+name,ticker,levered_beta,r_squared,n_obs,note
+Harmonic Drive Systems,6324.T,0.3413,0.0068,60,OK
+Sumitomo Heavy Industries,6302.T,0.4703,0.0783,60,OK
+THK,6481.T,0.6931,0.1189,60,OK
+Nidec Corp,6594.T,0.7508,0.1222,60,OK
+Apex Dynamics,1590.TW,0.2666,0.0117,60,OK
+Leaderdrive,688017.SS,0.9022,0.0306,60,OK
+Zhejiang Shuanghuan,002472.SZ,0.7332,0.0367,60,OK
