@@ -1,12 +1,10 @@
 quant/HKUTG/sem2/cache/
 
-# 대용량 데이터 파일
 *.parquet
 
-# 맥 시스템 파일
 .DS_Store
 
-# 임시 파일
-temp.py
 
-quant/iM/q5_factors_monthly_2024.csv
+*.xlsx
+
+*.csv
