@@ -52,9 +52,7 @@ The interpretation ties these together: FVOL works in Korea, its economic conten
 
 ## Current status
 
-This is an ongoing research project. The core measurement, return tests, mechanism, and factor spanning are complete. Open items being worked on (see the report appendix) include industry-adjusted FVOL, refinement of the item set for Korean accounting conventions (the long-term-debt item is missing for ~55% of firms, reflecting domestic financing structure), a market-cap-weighted market factor for the spanning tests, and the move toward a live, investable strategy.
-
-A full write-up with all figures and tables is in the accompanying report (`kospi/보고서.pdf`).
+This is an ongoing research project. The core measurement, return tests, mechanism, and factor spanning are complete. Open items being worked on include industry-adjusted FVOL, refinement of the item set for Korean accounting conventions (the long-term-debt item is missing for ~55% of firms, reflecting domestic financing structure), a market-cap-weighted market factor for the spanning tests, and the move toward a live, investable strategy.
 
 ## References
 
