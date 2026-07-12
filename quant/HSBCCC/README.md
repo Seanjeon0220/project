@@ -19,7 +19,7 @@ The notebook runs in two phases.
 
 ## Versions
 
-- **`HSBCCC_toolkit_v4.ipynb` — final (submitted).** The complete Phase A / Phase B toolkit described above.
+- **`v4.ipynb` — final (submitted).** The complete Phase A / Phase B toolkit described above.
 - **`v1` / `v2` / `v3`** — earlier iterations, outdated. Kept for reference; `v1` is a general function library (mean-variance optimization, Black-Litterman, risk parity, stress testing), later versions narrow toward the case-specific workflow.
 
 ## Data
