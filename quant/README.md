@@ -1,6 +1,6 @@
 # Quant
 
-Quantitative finance work — equity factor research, option pricing, systematic trading, and case competitions.
+Quantitative finance work — equity factor research, option pricing, systematic trading, and case studies.
 
 ## [`fVoL/`](fVoL/) — Fundamental volatility in Korean equities
 
@@ -18,10 +18,10 @@ Also here: **sector rotation** modelled as a Markov chain, which shows no memory
 
 Shannon's Demon: hold half your money in a volatile asset and half in cash, rebalance continuously, and volatility itself becomes return. Backtested over 18 years of KODEX 200 data, and then built into a program that executes the strategy through Korea Investment & Securities' paper-trading API. Rebalancing does not beat buy-and-hold on raw return — it gives up ~0.8%/year of CAGR — but it halves both the volatility and the drawdown. Work in progress.
 
-## [`HSBCCC/`](HSBCCC/) — HSBC Private Bank Case Challenge 2026
+## [`pbCase/`](pbCase/) — Private bank portfolio toolkit
 
-A calculation toolkit for a private-banking case: takes a client's portfolio and external assets and works through to a full proposal — strategic and tactical asset allocation by grid search, fund selection, a credit solution, and goal-sufficiency checks.
+A calculation toolkit for a private-banking case study: takes a client's portfolio and external assets and works through to a full proposal — strategic and tactical asset allocation by grid search, fund selection, a credit solution, and goal-sufficiency checks.
 
-## [`p7sp/`](p7sp/) — Point72 Stock Pitch
+## [`roboticsPitch/`](roboticsPitch/) — Robotics sector stock pitch
 
 A quantitative screen of listed robotics names — Chinese automation and Japanese motion-control companies — compared on return and tail risk, factor decomposition, asymmetric volatility, correlation structure, event study, and peer betas, to decide which one to pitch and how to frame the argument.

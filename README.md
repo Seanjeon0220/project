@@ -12,7 +12,7 @@ Quantitative finance research and competitive programming.
 
 **[Shannon's Demon](quant/shannonDemon/)** — Rebalancing a 50/50 cash-and-ETF portfolio to turn volatility itself into return. Backtested over 18 years of KOSPI 200 data, then built into a program that trades it through a broker API. *Ongoing.*
 
-Also: case-competition toolkits for [HSBC Private Bank](quant/HSBCCC/) and a [Point72 stock pitch](quant/p7sp/), and the [training exercises](quant/HKUTG/training/) behind the option pricing work.
+Also: case-study toolkits for [private-bank portfolio construction](quant/pbCase/) and a [robotics sector stock pitch](quant/roboticsPitch/), and the [training exercises](quant/HKUTG/training/) behind the option pricing work.
 
 ## [`algorithm/`](algorithm/)
 

@@ -1,6 +1,6 @@
-# Point72 Stock Pitch — Robotics Sector Quant Comparison
+# Robotics Sector Quant Comparison — Stock Pitch
 
-A quantitative screen built to support a Point72 stock pitch on the robotics sector. It pulls a set of listed robotics names — Chinese automation companies (Estun, Dobot, Tuopu, UBTech) and Japanese motion-control leaders (Harmonic Drive, Sumitomo Heavy, THK, Nidec, Nabtesco) — and compares them across risk, return, and factor metrics to decide which name to pitch and how to frame the argument.
+A quantitative screen built to support a stock pitch on the robotics sector. It pulls a set of listed robotics names — Chinese automation companies (Estun, Dobot, Tuopu, UBTech) and Japanese motion-control leaders (Harmonic Drive, Sumitomo Heavy, THK, Nidec, Nabtesco) — and compares them across risk, return, and factor metrics to decide which name to pitch and how to frame the argument.
 
 ## What it does
 
@@ -17,4 +17,4 @@ A short interpretation guide at the end ties each metric back to the pitch — f
 
 ## Data
 
-Prices from WRDS Compustat Global (preferred) or Yahoo Finance (fallback); benchmarks and FX from Yahoo. The WRDS path requires account access. Saved figures — return distributions, factor decomposition, rolling beta, and cumulative drawdown — are included alongside the notebook.
+Prices from WRDS Compustat Global (preferred) or Yahoo Finance (fallback); benchmarks and FX from Yahoo. The WRDS path requires account access. All charts render inline in the notebook.
