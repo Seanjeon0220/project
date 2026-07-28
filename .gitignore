@@ -11,3 +11,7 @@ quant/HKUTG/sem2/cache/
 *.npy
 
 .vscode/
+
+CLAUDE.md
+
+handoff.md
