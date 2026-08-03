@@ -7,4 +7,3 @@ else:
     ans = H*50
 
 print(ans)
-
