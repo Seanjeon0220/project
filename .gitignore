@@ -4,7 +4,6 @@ quant/HKUTG/sem2/cache/
 
 .DS_Store
 
-
 *.xlsx
 
 *.csv
@@ -16,10 +15,10 @@ CLAUDE.md
 
 handoff.md
 
-text_fixes.md
+*.png
 
 quotes.md
 
 verify_quotes.py
 
-*.png
+fig_data.json
