@@ -22,3 +22,5 @@ quotes.md
 verify_quotes.py
 
 fig_data.json
+
+*.docx
